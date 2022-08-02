@@ -1,0 +1,575 @@
+    .smdy_btn button {
+        border: none;
+        background: transparent;
+        color: #03222b;
+        padding: 0.8rem 1rem;
+        transition: all 0.5s;
+    }
+    
+    .smdy_btn button:hover {
+        background-color: #03222b;
+        color: white;
+        padding: 0.8rem 1rem;
+        border-radius: 47px;
+    }
+    
+    .we_deliver {
+        padding: 0 4rem 4rem 4rem;
+    }
+    
+    .we_deliver .txt_content {
+        padding: 4rem 0 0 0;
+    }
+    
+    .we_deliver h3 {
+        font-size: 3.313rem;
+        padding: 0 0 4rem 0;
+    }
+    
+    .we_deliver p {
+        font-size: 1.125rem;
+        width: 27rem;
+    }
+    
+    .download_app_second {
+        background-repeat: no-repeat;
+        background-image: url(../../assets/images/download_app_BG2.png);
+        overflow: hidden;
+        border-top: 1px solid #f4f4f4;
+        padding: 3rem 4rem;
+        background-position: right;
+    }
+    
+    .download_app_second .custom-width {
+        max-width: 60%;
+    }
+    
+    .download_app_second h3 {
+        color: #4b7dbb;
+        padding: 0 0 3.5rem 0;
+        font-size: 3.125rem;
+    }
+    
+    .download_app_second p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 1.25rem;
+        color: #000;
+    }
+    /* Download our App now rotating img */
+    
+    .image_rotating {
+        margin-top: 6%;
+    }
+    
+    .animation_element {
+        margin: 0 auto;
+        max-width: 73%;
+    }
+    
+    .animation_element img.rounded_img {
+        /* width: 100%; */
+        animation-name: bg_rotate;
+        animation-duration: 2s;
+        animation-delay: 0s;
+        border-radius: 50%;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+    
+    @keyframes bg_rotate {
+        100% {
+            transform: rotate(360deg);
+        }
+    }
+    /* ######################## */
+    
+    .centre_logo {
+        width: 20%;
+    }
+    
+    img.centre_logo {
+        top: 39%;
+        left: 39%;
+    }
+    
+    img.sub-img-1 {
+        max-width: 15%;
+    }
+    
+    img.computer_repair {
+        top: 6%;
+        left: 15%;
+    }
+    
+    img.google_ads {
+        top: -10%;
+        left: 40%;
+    }
+    
+    img.printer_repair {
+        top: 6%;
+        right: 15%;
+    }
+    
+    img.computer_desktop {
+        bottom: 5%;
+        right: 15%;
+    }
+    
+    img.computer_accessories {
+        bottom: 5%;
+        left: 15%;
+    }
+    
+    img.sub-img-2 {
+        max-width: 12.5%;
+    }
+    
+    img.laptop_repair {
+        left: 18%;
+        top: 40%;
+    }
+    
+    img.opd_buddy {
+        top: 40%;
+        right: 18%;
+    }
+    
+    img.ups_repair {
+        bottom: 10%;
+        left: 35%;
+    }
+    
+    img.sub-img-3 {
+        max-width: 10%;
+    }
+    
+    img.cctv_camera {
+        left: 45%;
+        top: 20%;
+    }
+    
+    img.laptop_img {
+        top: 30%;
+        right: 32%;
+    }
+    
+    img.ups_img {
+        bottom: 25%;
+        right: 35%;
+    }
+    
+    img.csc_img {
+        top: 55%;
+        left: 32%;
+    }
+    /* ######################## */
+    /* Download our App now rotating img end */
+    /* how-we-work-for-you start */
+    
+    .how_wework_foryou {
+        margin: 5% 0;
+    }
+    
+    .how_wework_foryou .white_bg {
+        max-width: 300px;
+        margin: 0 auto;
+        background-color: white;
+        padding: 19px;
+        border-radius: 35px;
+        box-shadow: 1px 3px 8px 0px black;
+        position: relative;
+    }
+    
+    .how_wework_foryou .module-border-wrap {
+        max-width: 280px;
+        padding: 1rem;
+        background: linear-gradient(to right, #0074ff, #01005b);
+        padding: 6px;
+        border-radius: 20px;
+    }
+    
+    .how_wework_foryou .module {
+        background: white;
+        color: black;
+        padding: 5rem 2rem;
+        border-radius: 20px;
+    }
+    
+    .how_wework_foryou .top-img img {
+        position: absolute;
+        top: -3%;
+        left: 16%;
+    }
+    
+    .how_wework_foryou .bottom-img img {
+        border-radius: 50%;
+        background: linear-gradient(to right, #0074ff, #01005b);
+        padding: 2%;
+        position: absolute;
+        max-width: 149px;
+        bottom: -17%;
+        left: 24%;
+    }
+    /* how-we-work-for-you end */
+    
+    .download_app_section {
+        background-image: url(../../assets/images/downlod_bg.png);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 50%;
+        padding: 7.75rem 0;
+    }
+    
+    .download_app_section h3 {
+        font-weight: 600;
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        color: #242f51;
+    }
+    /* test start */
+    /* slider start */
+    
+    .servies_buddy_slider {
+        height: 400px !important;
+    }
+    
+    .servies_buddy_slider section {
+        position: relative;
+        height: 450px;
+        width: 1075px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .card {
+        position: relative;
+        background: #107f91;
+        border-radius: 20px;
+        margin: 20px 0;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card::before {
+        content: "";
+        position: absolute;
+        height: 40%;
+        width: 100%;
+        background: #0b5164;
+        border-radius: 20px 20px 0 0;
+    }
+    
+    .card .card-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0;
+        position: relative;
+        z-index: 100;
+    }
+    
+    .servies_buddy_slider section .card .image {
+        height: 140px;
+        width: 140px;
+        border-radius: 50%;
+        padding: 3px;
+        background: #0b5164;
+    }
+    
+    .servies_buddy_slider section .card .image img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+        border: 3px solid #fff;
+    }
+    
+    .card .name-profession {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+    
+    .name-profession .name {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .name-profession .profession {
+        font-size: 15px;
+        font-weight: 500;
+    }
+    
+    .under_line_img {
+        width: 50% !important;
+        padding: 5px 0;
+    }
+    
+    ul.social_id {
+        padding: 0;
+        margin: 0;
+    }
+    
+    ul.social_id li {
+        display: inline;
+        margin: 0 auto;
+        padding: 0 5px;
+    }
+    
+    ul.social_id li a {
+        color: white;
+    }
+    /*  */
+    
+    button.accordion-button.collapsed {
+        background: red !important;
+    }
+    /*  */
+    
+    .faq .text-center h2 {
+        font-family: 'Poppins', sans-serif;
+        color: #242f51;
+        font-weight: 600;
+        font-size: 2.5rem;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .faq .text-center p {
+        font-size: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: normal;
+        color: #616368;
+        padding: 0.5rem 0 2rem 0;
+        margin: 0;
+    }
+    
+    .our_customer_remark {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .our_customer_remark h3.main_heading_txt {
+        font-family: 'Poppins', sans-serif;
+        color: #242f51;
+        font-size: 3.313rem;
+        font-weight: 600;
+    }
+    
+    .our_customer_remark .customers_pics {
+        position: relative;
+    }
+    
+    .our_customer_remark .pics img {
+        max-width: 10%;
+        position: absolute;
+    }
+    
+    .our_customer_remark .pics img:nth-child(1) {
+        top: 0%;
+        left: 35%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(2) {
+        top: 5%;
+        right: 15%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(3) {
+        top: 35%;
+        right: 50%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(4) {
+        top: 25%;
+        left: 8%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(5) {
+        top: 50%;
+        left: 10%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(6) {
+        top: 50%;
+        right: 25%;
+    }
+    
+    .our_customer_remark .pics img:nth-child(7) {
+        bottom: 0%;
+        left: 25%;
+    }
+    
+    .heading_text .content_heading h3 {
+        color: #242f51;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.469rem;
+        font-weight: 600;
+    }
+    
+    .heading_text .content_heading p {
+        color: #616368;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    
+    .our_customer_remark img.bg_customers_pics {
+        width: -webkit-fill-available;
+    }
+    
+    .customer_view h4 {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.313rem;
+        font-weight: 600;
+        color: #242f51;
+    }
+    
+    .why_choose_us {
+        background-image: url(../../assets/images/bg4_trangle.png);
+        background-color: #f8f5ff;
+        padding: 5rem 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    
+    .why_choose_us h3,
+    .why_choose_us h4,
+    .why_choose_us p {
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .why_choose_us .options {
+        color: #0b5164;
+        display: flex;
+    }
+    
+    .why_choose_us .options img {
+        width: 15%;
+        margin: auto;
+    }
+    
+    .why_choose_us span {
+        padding: 0 0 0 3rem;
+    }
+    
+    .why_choose_us .options span h4 {
+        font-size: 2rem;
+        font-weight: 500;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .why_choose_us .options span p {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin: 0 0 2px 0;
+        padding: 0;
+    }
+    
+    .why_choose_us .hdng_n_txt {
+        max-width: 70%;
+        padding-bottom: 3rem;
+    }
+    
+    .why_choose_us .hdng_n_txt h3 {
+        font-size: 3rem;
+        color: #0b5164;
+        font-weight: 500;
+    }
+    
+    .why_choose_us .hdng_n_txt p {
+        margin: 0;
+    }
+    
+    .services_buddies h3 {
+        font-family: 'Proxima Nova';
+        font-size: 3rem;
+        font-weight: 500;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    }
+    /* 1 */
+    
+    @media only screen and (min-width:307px) and (max-width:381px) {
+        .why_choose_us .options {
+            display: inherit;
+        }
+        .why_choose_us .hdng_n_txt {
+            max-width: 100%;
+            padding-bottom: 3rem;
+        }
+        .why_choose_us .options {
+            padding-bottom: 3rem;
+        }
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+        .how_wework_foryou .top-img img {
+            position: absolute;
+            top: -3%;
+            left: 12%;
+        }
+        .how_wework_foryou .bottom-img img {
+            bottom: -10%;
+            left: 22%;
+        }
+        .download_app_second {
+            padding: 1.5rem 0.1rem;
+            background-position: revert;
+            background-size: contain;
+        }
+        .download_app_second .custom-width {
+            max-width: 94%;
+        }
+        .we_deliver {
+            padding: 0 1rem;
+            margin: 0 auto;
+        }
+        .we_deliver h3 {
+            font-size: 2.8rem;
+            padding: 0 0 0.3rem 0;
+            margin: 0;
+        }
+        .we_deliver .txt_content {
+            padding: 2rem 0 0 0;
+        }
+        /*  */
+    }
+    /* 2 */
+    
+    @media only screen and (min-width:382px) and (max-width:767px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
+    /* 3 */
+    
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
+    /* 4 */
+    
+    @media only screen and (min-width: 992px) and (max-width: 1024px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
+    /* 5 */
+    
+    @media only screen and (min-width: 1025px) and (max-width: 1094px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }
+    /* 6 */
+    
+    @media only screen and (min-width: 1095px) and (max-width: 1523px) {
+        .how_wework_foryou .work-process-cards {
+            height: 47.5rem;
+        }
+    }

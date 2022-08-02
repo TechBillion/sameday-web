@@ -1,0 +1,46 @@
+<div class="container">
+    <!-- Modal body -->
+    <div>
+        <!-- Modal body.. -->
+
+        <div class="input-group mb-3 order_id">
+            <span class="input-group-text" id="basic-addon1">Order Id</span>
+            <input type="text" class="form-control" placeholder="Order ID" aria-label="Order Id" aria-describedby="basic-addon1" [(ngModel)]="OrderId">
+        </div>
+
+        <div class="input-group mb-3 order_subject">
+            <span class="input-group-text" id="basic-addon1">Subject</span>
+            <input type="text" class="form-control" placeholder="Subject" aria-label="Subject" aria-describedby="basic-addon1" [(ngModel)]="Subject">
+        </div>
+        <div class="input-group mb-3 mob_no">
+            <span class="input-group-text" id="basic-addon1">Mobile No</span>
+            <input type="text" class="form-control" placeholder="Mobile No" aria-label="Mobile No" aria-describedby="basic-addon1" [(ngModel)]="MobileNo">
+        </div>
+
+        <div class="input-group">
+            <span class="input-group-text">Discription</span>
+            <textarea class="form-control" aria-label="With textarea" [(ngModel)]="Discription"></textarea>
+        </div>
+
+        <form>
+            <div class="form-group">
+                <br>
+                <label>Attach File</label>
+                <input type="file" (change)="onFileSelect($event)">
+                <!-- <input type="file"   [(ngModel)]="File" class="form-control-file" id="exampleFormControlFile1"> -->
+                <input type="button" value="upload" (click)="onUpload()">
+
+
+
+            </div>
+        </form>
+
+
+
+
+        <button type="button" class="btn btn-primary" (click)="Save()">Submit</button>
+
+
+    </div>
+
+</div>

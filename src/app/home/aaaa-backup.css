@@ -1,0 +1,143 @@
+.animation_element {
+    margin: 0 auto;
+    max-width: 73%;
+    position: relative;
+}
+
+.animation_element img.rounded_img {
+    /* width: 100%; */
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-delay: 0s;
+    border-radius: 50%;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.centre_img {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.m-width-1 img {
+    max-width: 56.25%;
+}
+
+.m-width-2 img {
+    max-width: 43.75%;
+}
+
+.m-width-3 img {
+    max-width: 31.25%;
+}
+
+.centre_img {
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
+
+.sub-img-1 {
+    position: absolute;
+    opacity: 1;
+}
+
+.sub-img-1 img {
+    box-shadow: 0 0 17px 3px black;
+    border-radius: 100%;
+}
+
+.computer_repair {
+    top: 9%;
+    left: 2%;
+}
+
+.printer_repair {
+    top: 0%;
+    right: 0%;
+}
+
+.computer_accessories {
+    bottom: 5%;
+    left: 5%;
+}
+
+.computer_desktop {
+    bottom: 0%;
+    right: 0;
+}
+
+.google_ads {
+    top: -5%;
+    right: 27%;
+}
+
+.sub-img-2 {
+    position: absolute;
+    opacity: 1;
+}
+
+.sub-img-2 img {
+    box-shadow: 0 0 17px 3px black;
+    border-radius: 100%;
+}
+
+.laptop_repair {
+    bottom: 45%;
+    left: 9%;
+}
+
+.opd_buddy {
+    bottom: 45%;
+    right: -11%;
+}
+
+.ups_repair {
+    bottom: 10%;
+    right: 35%;
+}
+
+.sub-img-3 {
+    position: absolute;
+    opacity: 1;
+}
+
+.sub-img-3 img {
+    box-shadow: 0 0 17px 3px black;
+    border-radius: 100%;
+}
+
+.cctv_camera {
+    bottom: 68%;
+    right: 25%;
+}
+
+.laptop {
+    bottom: 60%;
+    right: 5%;
+}
+
+.ups {
+    bottom: 25%;
+    right: 10%;
+}
+
+.csc {
+    bottom: 30%;
+    left: 29%;
+}
+
+.m-width-1 img {
+    max-width: 56.25%;
+}
+
+.m-width-2 img {
+    max-width: 43.75%;
+    display: none;
+}
+
+.m-width-3 img {
+    max-width: 31.25%;
+    display: none;
+}

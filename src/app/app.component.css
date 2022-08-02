@@ -1,0 +1,96 @@
+ul.navbar-nav li.nav-item a.nav-link {
+    color: #03222b;
+}
+
+.fixed-top {
+    background-color: #ffffffe6;
+    transition: 0.5s;
+}
+
+.fixed-top:hover {
+    background-color: #ffff;
+}
+
+footer {
+    text-align: center;
+    padding: 1.25rem;
+    background-color: #133e4d;
+}
+
+.footer_menu ul {
+    padding: 1.5rem 0;
+}
+
+.footer_menu ul li {
+    display: inline;
+}
+
+.footer_menu ul li a {
+    color: white !important;
+    padding: 5px 10px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.footer_menu ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.social_icons ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    color: white;
+}
+
+.social_icons ul li {
+    display: inline;
+    padding: 0 1rem;
+    color: white;
+}
+
+.footer {
+    position: relative;
+    padding: 5rem 0;
+}
+
+.footer .bg_circles {
+    position: absolute;
+}
+
+.footer img.small-circle:nth-child(1) {
+    position: absolute;
+    width: 1%;
+    height: auto;
+    border-radius: 50%;
+    right: 3%;
+    top: 10%;
+}
+
+.footer img.small-circle:nth-child(2) {
+    position: absolute;
+    width: 1%;
+    height: auto;
+    border-radius: 50%;
+    right: 45%;
+    top: 5%;
+}
+
+.copyright p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #456773;
+}
+
+@media only screen and (min-width:307px) and (max-width:381px) {
+    a.nav-link {
+        text-align: right;
+        font-size: 1.5rem;
+    }
+    a.nav-link img {
+        width: fit-content;
+    }
+    .footer ul li {
+        display: grid;
+    }
+}
